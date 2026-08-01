@@ -36,3 +36,52 @@ RDK S100
 Robot Controller
 |
 Actuators
+
+
+JB_Embodied_AI_Robot
+
+│
+
+├── README.md                 # Project introduction
+
+│
+
+├── docs/                     # Engineering documents
+
+│
+
+├── src/                      # ROS2 source code
+
+│   │
+
+│   ├── jb_robot_driver       # Hardware interface
+
+│   │
+
+│   ├── jb_control            # Control algorithms
+
+│   │
+
+│   ├── jb_navigation         # Navigation
+
+│   │
+
+│   └── jb_robot_demo         # ROS2 learning package
+
+│
+
+├── vision/                   # Computer Vision
+
+│
+
+├── llm_agent/                # LLM interaction layer
+
+│
+
+├── hardware/                 # Robot hardware analysis
+
+│
+
+└── scripts/                  # Utility scripts
+
+

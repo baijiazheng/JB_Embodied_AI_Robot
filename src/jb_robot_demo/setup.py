@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        ],
+        	'status_node = jb_robot_demo.status_node:main',
+	],
     },
 )
