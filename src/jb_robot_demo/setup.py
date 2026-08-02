@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
         	'status_node = jb_robot_demo.status_node:main',
+		'command_node = jb_robot_demo.command_node:main',
 	],
     },
 )
