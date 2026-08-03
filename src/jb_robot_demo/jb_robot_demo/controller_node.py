@@ -6,7 +6,7 @@ class RobotController(Node):
 	def __init__(self):
 		super().__init__('controller_node')
 		self.subsciption = self.create_subscription(String,
-			'robot_command',
+			'safe_command',
 			self.command_callback,
 			10
 		)

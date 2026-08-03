@@ -11,7 +11,7 @@ class CommandNode (Node):
 			,10
 		)
 		self.timer = self.create_timer(2.0,self.send_command)
-		self.commands = ["forward","left","stop"]
+		self.commands = ["forward","left","stop","right"]
 		self.index = 0
 	def send_command(self):
 		msg = String()

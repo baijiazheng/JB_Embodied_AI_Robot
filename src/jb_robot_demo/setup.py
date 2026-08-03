@@ -27,6 +27,7 @@ setup(
         	'status_node = jb_robot_demo.status_node:main',
 		'command_node = jb_robot_demo.command_node:main',
 		'controller_node = jb_robot_demo.controller_node:main',
+		'safety_node = jb_robot_demo.safety_node:main',
 	],
     },
 )
