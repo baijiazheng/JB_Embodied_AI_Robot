@@ -7,10 +7,10 @@ class RobotStatusNode(Node):
 	"""
 	Robot status publisher node.
 	"""
-	
+
 	def __init__(self):
-		super().__init__('robot_status_node')
-		
+		super().__init__('status_node')
+
 		self.publisher_ = self.create_publisher(
 			String,
 			'robot_status',

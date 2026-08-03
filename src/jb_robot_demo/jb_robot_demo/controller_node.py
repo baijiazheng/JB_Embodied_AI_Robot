@@ -4,7 +4,7 @@ from std_msgs.msg import String
 
 class RobotController(Node):
 	def __init__(self):
-		super().__init__('robot_controller')
+		super().__init__('controller_node')
 		self.subsciption = self.create_subscription(String,
 			'robot_command',
 			self.command_callback,
@@ -34,5 +34,5 @@ def main(args = None):
 	node.destroy_node()
 	rclpy.shutdown()
 
-if __name__ == __main__:
+if __name__ == '__main__':
 	main()
