@@ -1,19 +1,16 @@
-Experiment:Servo Control Interaction
+Experiment:Voice Control Interaction
 
-Goal:control the servo motors.
+Goal:To master the voice control interaction with ROS2.
 
-Hardware: Servo Motors, Microcontroller
+Hardware:ROS2 Development Environment, Microphone.
 
-Communication: Nomachine.
+Communication: Serial.
 
-Input: Position commands for the servo motors.
+Input:nature language voice 
 
-Output: Servo motors move to the specified positions.
+Output:make the robot awake.
 
-What I learned:how to control servo motors using position commands and how to interface with the microcontroller to send these commands.
+What I learned: I learned how to use the voice control interaction with ROS2 to make the robot awake. and how to use the microphone to capture natural language voice commands.
 
-Problem: The servo motors did not respond to the position commands as expected.
-Solution: an little mistake. it's because i forgot to set launch file before running the command.
-
-# ros2 launch sdk jetarm_sdk.launch.py
-# ros2 topic pub /ros_robot_controller/bus_servo/set_position ros_robot_controller_msgs/msg/ServosPosition '{"position": [{"id": 1, "position": 700}]}'
+upload: ros2 launch xf_mic_asr_offline mic_init.launch.py enable_setting:=true
+run:    ros2 launch xf_mic_asr_offline mic_init.launch.py
