@@ -10,4 +10,8 @@ Input: Launched the ROS2 package and connected the binocular camera.
 
 Output: The images from the binocular camera are displayed in rviz.
 
-What I learned:
+What I learned:I learned how the ROS2 work with the binocular camera and how to visualize the images in rviz.
+
+# ros2 launch orbbec_camera dabai_dcw.launch.py
+# ros2 run rviz2 rviz2 
+# rqt
