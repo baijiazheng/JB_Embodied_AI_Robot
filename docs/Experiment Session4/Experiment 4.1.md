@@ -16,4 +16,5 @@ Output: The robot moves according to the commands published on the /cmd_vel topi
 What I learned: I learned how to use the ROS2 package to communicate with the STM32 Board and control the robot's movement.
 and know how the launch files work for launching the ROS2 package.
 
+# ros2 launch controller controller.launch.py
 # ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.4, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z:0.0}}" 
