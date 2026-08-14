@@ -17,5 +17,7 @@ What I learned: How confident the MoveIt2 work in ROS2.
 
 problem: the jetarm don't work like the simulation.and don't display the real position and orientation in rviz2.
 solution: research the action if not work as usual.
+        Through all detection, i know there are because of only simulation.
 
+# ros2 launch sdk jetarm_sdk.launch.py
 # ros2 launch hiwonder_moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true
