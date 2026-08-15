@@ -14,4 +14,4 @@ Output: stimulate the model like the programming.
 What I learned: Cartesian Path be used in the environment which is given with path.
 
 # ros2 launch sdk jetarm_sdk.launch.py
-# ros2 launch hiwonder_moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true
+# ros2 launch moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true

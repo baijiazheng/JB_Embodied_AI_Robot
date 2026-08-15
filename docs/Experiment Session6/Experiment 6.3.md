@@ -13,4 +13,4 @@ Output: keep computing until a valid path is found.
 What I learned: The scene design function is aiming to support stimulation for robot test virtually. RViz is godness.
 
 # ros2 launch sdk jetarm_sdk.launch.py
-# ros2 launch hiwonder_moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true
+# ros2 launch moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true

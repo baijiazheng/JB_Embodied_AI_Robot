@@ -17,4 +17,4 @@ solution: change the robot_ros2_ws to the official ws.
 
 # cd ~/ros2_ws && source install/setup.bash && ros2 launch ros_robot_controller ros_robot_controller.launch.py
 
-# cd ~/ros2_ws && source install/setup.bash && ros2 launch hiwonder_moveit_config demo.launch.py
+# cd ~/ros2_ws && source install/setup.bash && ros2 launch moveit_config demo.launch.py

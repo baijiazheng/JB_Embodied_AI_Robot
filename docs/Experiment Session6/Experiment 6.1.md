@@ -20,4 +20,4 @@ solution: research the action if not work as usual.
         Through all detection, i know there are because of only simulation.
 
 # ros2 launch sdk jetarm_sdk.launch.py
-# ros2 launch hiwonder_moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true
+# ros2 launch moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true

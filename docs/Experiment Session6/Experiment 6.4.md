@@ -14,4 +14,4 @@ What I learned: ACM is used to optimize collision-detection efficiency.(avoid th
                 CollisionWorld 's Flexible Collision Library (FCL) give the easy computation.
 
 # ros2 launch sdk jetarm_sdk.launch.py
-# ros2 launch hiwonder_moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true
+# ros2 launch moveit_config demo.launch.py use_gazebo:=true use_sim_time:=true
