@@ -13,6 +13,7 @@ Output: the real arm work like the simulation modle.and excute the same motion t
 What I learned: before launch the controller node, all commands are simulation.:(
 
 problem: the real arm don't work together with simulation.
+solution: change the robot_ros2_ws to the official ws.
 
 # cd ~/ros2_ws && source install/setup.bash && ros2 launch ros_robot_controller ros_robot_controller.launch.py
 
