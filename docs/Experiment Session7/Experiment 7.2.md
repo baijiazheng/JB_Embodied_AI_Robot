@@ -1,13 +1,17 @@
-Experiment:
+Experiment: Kernelized Correlation Filter (KCF) object tracking
 
-Goal:
+Goal: To learn about the base definition of the KCF algorithm.
+      To master the object tracking based on KCF.
 
-Hardware:
+Hardware: Robot. computer.
 
-Communication: 
+Communication: NoMachine. USB.
 
-Input:
+Input: give the object to the camera.
 
-Output:
+Output: camera with KCF algorithm detected the object . and PID change the y label and xlabel number.
 
-What I learned:
+What I learned: The KCF algorithm is a repo about core-found. which is important and efficient to find tracker. 
+
+# source ~/track_env.sh
+# ros2 launch example kcf_track_node.launch.py

@@ -1,12 +1,12 @@
-Experiment:
+Experiment: Besed on mediaPipe's hand gesture, hand tracking.
 
-Goal:
+Goal: know how it works.
 
-Hardware:
+ardware: Robot. computer.
 
-Communication: 
+Communication: NoMachine. USB.
 
-Input:
+Input: give the hand to the camera.
 
 Output:
 
