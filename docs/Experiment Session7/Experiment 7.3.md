@@ -11,3 +11,5 @@ Input: give the hand to the camera.
 Output:
 
 What I learned:
+
+# source ~/track_env.sh && ros2 launch example hand_track_node.launch.py
