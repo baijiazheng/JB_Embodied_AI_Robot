@@ -14,7 +14,7 @@ What I learned: SLAM is 'simultaneous localization and mapping' which is between
                 NAV2 is the path planning navigation and chasiss controller.(avoid obstacle)
 https://docs.nav2.org
 
-# nav2 init:
+# nav2 init: ${ROS_DISTRO} = humble; ${ROS_DISTRO}-devel = humble.
 # sudo apt install ros-${ROS_DISTRO}-navigation2 ros-${ROS_DISTRO}-nav2-bringup
 # cd ~/nav2_ws/src
 # git clone https://github.com/ros-planning/navigation2.git --branch ${ROS_DISTRO}-devel
