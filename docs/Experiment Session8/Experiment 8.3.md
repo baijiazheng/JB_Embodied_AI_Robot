@@ -1,13 +1,14 @@
-Experiment:
+Experiment: RTAB-VSLAM mapping and navigation
 
-Goal:
+Goal: To understand the basic original knowledge of VSLAM.
+      To lauch the VSLAM mapping
 
-Hardware:
+Hardware: Lidar(Robot), Computer
 
-Communication: 
+Communication: Nomachine
 
-Input:
+Input: slowly move itself to mapping all thing with  VSLAM
 
-Output:
+Output: with vision and SLAM , the 3D bedroom modle was built slowly but perfectly.
 
-What I learned:
+What I learned: VSLAM is SLAM with the vision.
