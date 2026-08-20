@@ -31,6 +31,12 @@ https://docs.nav2.org
 # save map:
 # cd ~/ros2_ws/src/slam/maps && ros2 run nav2_map_server map_saver_cli -f "map_01" --ros-args -p map_subscribe_transient_local:=true
 
+# !!! remember to rebuild , there is a funny story.
+# ls -lah ~/ros2_ws/install/slam/share/slam/maps/
+# rm -rf ros2_ws/build/slam install/slam
+# colcon build --packages-select slam --symlink-install
+# ros2 lifecycle get /map_server
+
 # navigate
 # ros2 launch navigation navigation.launch.py map:=map_01
 # ros2 launch navigation rviz_navigation.launch.py
