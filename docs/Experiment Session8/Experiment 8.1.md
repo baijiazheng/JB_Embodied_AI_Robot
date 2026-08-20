@@ -29,8 +29,7 @@ https://docs.nav2.org
 # ros2 launch peripherals teleop_key_control.launch.py
 
 # save map:
-# cd ~/ros2_ws/src/slam/maps && ros2 run nav2_map_server map_saver_cli -f "map_01" --ros-args -p
-# map_subscribe_transient_local:=true
+# cd ~/ros2_ws/src/slam/maps && ros2 run nav2_map_server map_saver_cli -f "map_01" --ros-args -p map_subscribe_transient_local:=true
 
 # navigate
 # ros2 launch navigation navigation.launch.py map:=map_01

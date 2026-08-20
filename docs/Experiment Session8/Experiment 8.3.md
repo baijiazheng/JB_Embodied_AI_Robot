@@ -11,7 +11,7 @@ Input: slowly move itself to mapping all thing with  VSLAM
 
 Output: with vision and SLAM , the 3D bedroom modle was built slowly but perfectly.
 
-What I learned: VSLAM is SLAM with the vision.
+What I learned: VSLAM is SLAM with the vision. RTABmap is a method to minimize error for closed-loop control.
 
 # ros2 launch slam rtabmap_slam.launch.py
 # ros2 launch slam rviz_rtabmap.launch.py
